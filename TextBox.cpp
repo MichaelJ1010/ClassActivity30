@@ -12,5 +12,5 @@ void TextBox::setValue(string value) {
 	cout << "setting value to " << value << endl;
 }
 TextBox::TextBox(string value) {
-	this->value = value;
+	setValue(value);
 }
